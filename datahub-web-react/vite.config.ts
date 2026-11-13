@@ -319,7 +319,7 @@ export default defineConfig(async ({ mode }) => {
             open: false,
             host: false,
             port: 3000,
-            allowedHosts: ['compiler-help-datahub-web.v0.build'],
+            allowedHosts: ['compiler-help-datahub-web.v0.build', 'sb-1m7p6ttarfmn.vercel.run'],
             proxy: proxyOptions,
             https: isHttps,
         },
