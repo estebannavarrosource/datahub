@@ -319,6 +319,7 @@ export default defineConfig(async ({ mode }) => {
             open: false,
             host: false,
             port: 3000,
+            allowedHosts: ['compiler-help-datahub-web.v0.build'],
             proxy: proxyOptions,
             https: isHttps,
         },
